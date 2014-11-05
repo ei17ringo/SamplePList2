@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B266D571A0A060100323C05 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B266D561A0A060100323C05 /* DetailViewController.m */; };
 		1B85A31B1A08B78200D21BA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B85A31A1A08B78200D21BA1 /* main.m */; };
 		1B85A31E1A08B78200D21BA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B85A31D1A08B78200D21BA1 /* AppDelegate.m */; };
 		1B85A3211A08B78200D21BA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B85A3201A08B78200D21BA1 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		1B85A3261A08B78200D21BA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B85A3251A08B78200D21BA1 /* Images.xcassets */; };
 		1B85A3291A08B78200D21BA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B85A3271A08B78200D21BA1 /* LaunchScreen.xib */; };
 		1B85A3351A08B78200D21BA1 /* SamplePListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B85A3341A08B78200D21BA1 /* SamplePListTests.m */; };
+		1B85A33F1A08C22900D21BA1 /* FriendsPerArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B85A33E1A08C22900D21BA1 /* FriendsPerArea.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B266D551A0A060100323C05 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1B266D561A0A060100323C05 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		1B85A3151A08B78200D21BA1 /* SamplePList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B85A3191A08B78200D21BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B85A31A1A08B78200D21BA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 		1B85A32E1A08B78200D21BA1 /* SamplePListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplePListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B85A3331A08B78200D21BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B85A3341A08B78200D21BA1 /* SamplePListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePListTests.m; sourceTree = "<group>"; };
+		1B85A33E1A08C22900D21BA1 /* FriendsPerArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FriendsPerArea.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				1B85A31D1A08B78200D21BA1 /* AppDelegate.m */,
 				1B85A31F1A08B78200D21BA1 /* ViewController.h */,
 				1B85A3201A08B78200D21BA1 /* ViewController.m */,
+				1B266D551A0A060100323C05 /* DetailViewController.h */,
+				1B266D561A0A060100323C05 /* DetailViewController.m */,
 				1B85A3221A08B78200D21BA1 /* Main.storyboard */,
 				1B85A3251A08B78200D21BA1 /* Images.xcassets */,
 				1B85A3271A08B78200D21BA1 /* LaunchScreen.xib */,
@@ -98,6 +105,7 @@
 			children = (
 				1B85A3191A08B78200D21BA1 /* Info.plist */,
 				1B85A31A1A08B78200D21BA1 /* main.m */,
+				1B85A33E1A08C22900D21BA1 /* FriendsPerArea.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B85A3241A08B78200D21BA1 /* Main.storyboard in Resources */,
+				1B85A33F1A08C22900D21BA1 /* FriendsPerArea.plist in Resources */,
 				1B85A3291A08B78200D21BA1 /* LaunchScreen.xib in Resources */,
 				1B85A3261A08B78200D21BA1 /* Images.xcassets in Resources */,
 			);
@@ -222,6 +231,7 @@
 				1B85A3211A08B78200D21BA1 /* ViewController.m in Sources */,
 				1B85A31E1A08B78200D21BA1 /* AppDelegate.m in Sources */,
 				1B85A31B1A08B78200D21BA1 /* main.m in Sources */,
+				1B266D571A0A060100323C05 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +422,7 @@
 				1B85A33A1A08B78200D21BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B85A33B1A08B78200D21BA1 /* Build configuration list for PBXNativeTarget "SamplePListTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				1B85A33D1A08B78200D21BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
