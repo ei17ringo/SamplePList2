@@ -19,6 +19,24 @@
     // Do any additional setup after loading the view.
     
     NSLog(@"%@",self.friendsList);
+    
+    NSLog(@"%@のお友達",self.friendsList[@"Name"]);
+    
+    //ナビゲーションコントローラーのタイトルに県名＋”のお友達”という文字列をセット
+    [[self navigationItem] setTitle:[NSString stringWithFormat:@"%@のお友達",self.friendsList[@"Name"]]];
+    
+    //FriendListを配列に保存
+    NSArray *friendListforTextView = [self.friendsList objectForKey:@"FriendList"];
+    
+    //連結した名前を保存する変数の初期化
+    NSString *strNameList = @"";
+    
+    //高速列挙でデータを取り出して文字列変数にセット
+    for (NSString *friendName in friendListforTextView) {
+        strNameList = [NSString stringWithFormat:@"%@%@",strNameList,friendName];
+    }
+    
+    NSLog(@"%@",strNameList);
 }
 
 - (void)didReceiveMemoryWarning {
